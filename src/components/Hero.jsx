@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export default function Hero() {
-  const roles = ["frontend-developer", "ui-ux-designer", "react-enthusiast", "creative-coder"];
+  const roles = ["Full stack developer", "ERP Developer", "Creative coder"];
   const [roleIndex, setRoleIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -20,7 +20,7 @@ export default function Hero() {
     }}>
       <div style={{ textAlign: "center", maxWidth: "760px" }}>
         <div className="eyebrow" style={{ justifyContent: "center", marginBottom: "24px" }}>
-          status: available for work
+           available for work
         </div>
 
         <h1 style={{
@@ -28,7 +28,7 @@ export default function Hero() {
           fontSize: "clamp(2.8rem, 9vw, 5.8rem)", lineHeight: 1.05,
           color: "var(--ink)", marginBottom: "20px", letterSpacing: "-0.02em",
         }}>
-          Hi, I'm <span style={{ color: "var(--accent)" }}>Alex</span>
+          Hi, I'm <span style={{ color: "var(--accent)" }}>Djellouli Abdessamed Zakaria</span>
         </h1>
 
         <p style={{
