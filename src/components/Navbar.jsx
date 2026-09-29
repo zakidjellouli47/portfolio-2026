@@ -25,7 +25,7 @@ export default function Navbar() {
         fontFamily: "var(--font-mono)", fontWeight: 500, fontSize: "1rem",
         color: "var(--ink)",
       }}>
-        <span style={{ color: "var(--accent)" }}>~/</span>alex
+        
       </span>
 
       <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>

@@ -19,10 +19,7 @@ export default function Hero() {
       justifyContent: "center", position: "relative", padding: "0 24px",
     }}>
       <div style={{ textAlign: "center", maxWidth: "760px" }}>
-        <div className="eyebrow" style={{ justifyContent: "center", marginBottom: "24px" }}>
-           available for work
-        </div>
-
+       
         <h1 style={{
           fontFamily: "var(--font-display)", fontWeight: 700,
           fontSize: "clamp(2.8rem, 9vw, 5.8rem)", lineHeight: 1.05,
