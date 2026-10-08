@@ -25,11 +25,10 @@ export default function About() {
           </div>
 
           <div>
-            <div className="eyebrow">01 — about</div>
+            <div className="eyebrow">About</div>
             <h2 className="section-title">Turning ideas into<br />working software</h2>
             <p style={{ color: "var(--ink-soft)", lineHeight: 1.8, marginBottom: "16px" }}>
-              I'm a frontend developer who cares about the details — clean code, fast load times, and interfaces that feel obvious to use. I work mainly in React and TypeScript.
-            </p>
+              I'm a full stack developer who cares about the details — clean code, fast load times, and interfaces that feel obvious to use. I work with laravel and react js mainly.            </p>
             <p style={{ color: "var(--ink-soft)", lineHeight: 1.8, marginBottom: "40px" }}>
               Outside of code: open source, design systems, and an ongoing pour-over coffee habit.
             </p>
