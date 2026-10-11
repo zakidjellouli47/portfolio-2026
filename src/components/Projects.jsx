@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <section id="projects" style={{ padding: "100px 0" }}>
       <div className="section fade-up" ref={ref}>
-        <div className="eyebrow">02 — projects</div>
+        <div className="eyebrow"> projects</div>
         <h2 className="section-title">Things I've built</h2>
         <p className="section-sub">A selection of work. Each one taught me something new.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "20px" }}>

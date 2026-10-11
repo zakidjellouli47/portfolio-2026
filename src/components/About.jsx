@@ -2,9 +2,9 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 import StatCard from "./StatCard";
 
 const stats = [
-  { value: "3+", label: "Years experience" },
-  { value: "40+", label: "Projects built" },
-  { value: "15+", label: "Happy clients" },
+  { value: "2+", label: "Years experience" },
+  { value: "10+", label: "Projects built" },
+  { value: "5+", label: "Happy clients" },
   { value: "∞",  label: "Cups of coffee" },
 ];
 

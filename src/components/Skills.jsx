@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <section id="skills" style={{ padding: "100px 0", background: "var(--surface)" }}>
       <div className="section fade-up" ref={ref}>
-        <div className="eyebrow">03 — skills</div>
+        <div className="eyebrow"> skills</div>
         <h2 className="section-title">Tools I reach for</h2>
         <p className="section-sub">The stack behind everything I build.</p>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(230px, 1fr))", gap: "20px" }}>
