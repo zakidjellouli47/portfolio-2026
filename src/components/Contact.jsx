@@ -25,7 +25,7 @@ export default function Contact() {
     <section id="contact" style={{ padding: "100px 0" }}>
       <div className="section fade-up" ref={ref}>
         <div style={{ maxWidth: "600px", margin: "0 auto", textAlign: "center" }}>
-          <div className="eyebrow" style={{ justifyContent: "center" }}>04 — contact</div>
+          <div className="eyebrow" style={{ justifyContent: "center" }}>contact</div>
           <h2 className="section-title">Let's build something</h2>
           <p style={{ color: "var(--ink-soft)", marginBottom: "44px", lineHeight: 1.7 }}>
             Have a project in mind? I'd love to hear about it.
