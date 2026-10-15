@@ -1,6 +1,12 @@
 import { useState } from "react";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 
+const socials = [
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/abdessamed-zakaria-djellouli-05a27b222/" },
+  { name: "WhatsApp", url: "https://wa.me/213794608293" },
+  { name: "GitHub", url: "https://github.com/zakidjellouli47" },
+];
+
 export default function Contact() {
   const ref = useScrollReveal();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -32,28 +38,23 @@ export default function Contact() {
           </p>
         </div>
 
-        <div style={{ maxWidth: "540px", margin: "0 auto" }}>
-          {sent ? (
-            <div style={{ textAlign: "center", padding: "44px", background: "var(--card)", borderRadius: "var(--radius)", border: "1px solid var(--accent)" }}>
-              <h3 style={{ fontFamily: "var(--font-display)", color: "var(--ink)", marginBottom: "8px" }}>Message sent</h3>
-              <p style={{ color: "var(--ink-soft)" }}>I'll get back to you within 24 hours.</p>
-              <button onClick={() => setSent(false)} className="btn btn-ghost" style={{ marginTop: "20px" }}>
-                Send another
-              </button>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-              <input type="text" name="name" placeholder="Your name" value={form.name} onChange={handleChange} required style={inputStyle}
-                onFocus={e => e.target.style.borderColor = "var(--accent)"} onBlur={e => e.target.style.borderColor = "var(--line)"} />
-              <input type="email" name="email" placeholder="Your email" value={form.email} onChange={handleChange} required style={inputStyle}
-                onFocus={e => e.target.style.borderColor = "var(--accent)"} onBlur={e => e.target.style.borderColor = "var(--line)"} />
-              <textarea name="message" placeholder="Tell me about your project..." value={form.message} onChange={handleChange} required rows={5} style={inputStyle}
-                onFocus={e => e.target.style.borderColor = "var(--accent)"} onBlur={e => e.target.style.borderColor = "var(--line)"} />
-              <button type="submit" className="btn btn-primary" style={{ justifyContent: "center" }}>
-                Send message
-              </button>
-            </form>
-          )}
+       
+
+        {/* Social links */}
+        <div style={{ display: "flex", gap: "24px", justifyContent: "center", flexWrap: "wrap", marginTop: "48px" }}>
+          {socials.map(({ name, url }) => (
+            <a
+              key={name}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "var(--ink-soft)", fontSize: "0.88rem", textDecoration: "none", transition: "color 0.2s" }}
+              onMouseEnter={e => (e.target.style.color = "var(--ink)")}
+              onMouseLeave={e => (e.target.style.color = "var(--ink-soft)")}
+            >
+              {name}
+            </a>
+          ))}
         </div>
       </div>
     </section>
