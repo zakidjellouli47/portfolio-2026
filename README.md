@@ -12,21 +12,7 @@ Personal portfolio website of **Djellouli Abdessamed Zakaria** (Zaki), a full st
 
 ![Hero section](screenshots/hero.png)
 
-### About
 
-![About section](screenshots/about.png)
-
-### Projects
-
-![Projects section](screenshots/projects.png)
-
-### Skills
-
-![Skills section](screenshots/skills.png)
-
-### Contact
-
-![Contact section](screenshots/contact.png)
 
 ---
 
