@@ -2,7 +2,7 @@
 
 Personal portfolio website of **Djellouli Abdessamed Zakaria** (Zaki), a full stack developer focused on Laravel, React, and blockchain-based systems. The site showcases my background, selected projects, technical skills, and ways to get in touch.
 
-🔗 **Live site:** _add your deployed URL here_
+🔗🔗 **Live site:** https://zakidjellouli47.github.io/portfolio-2026/
 
 ---
 
